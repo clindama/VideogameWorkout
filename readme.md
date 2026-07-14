@@ -1,3 +1,4 @@
+
 # Game Pushup Tracker
 
 A computer vision program that detects when you die in a game and forces you to complete pushups.
@@ -31,3 +32,6 @@ You can also do a shoulder press movement if you dont want the camera on the flo
 
 Able to track total stats based off each user
 
+## Demo Video
+
+https://youtu.be/EQkhTtRvPOc
