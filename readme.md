@@ -34,4 +34,4 @@ Able to track total stats based off each user
 
 ## Demo Video
 
-https://youtu.be/EQkhTtRvPOc
+youtube.com/watch?v=EQkhTtRvPOc&feature=youtu.be
