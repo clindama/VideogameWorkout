@@ -1,8 +1,8 @@
-<img width="632" height="528" alt="demotest" src="https://github.com/user-attachments/assets/e05b39ef-7dcf-4607-9e09-cd59e4a7f11d" />
+<img width="300" height="251" alt="demotest" src="https://github.com/user-attachments/assets/e05b39ef-7dcf-4607-9e09-cd59e4a7f11d" />
 
 # Game Pushup Tracker
 
-A computer vision program that detects when you die in a game and forces you to complete pushups.
+A computer vision program that detects when you die in a game and forces you to complete pushups or shoulder presses.
 
 ## Features
 
@@ -31,7 +31,7 @@ Once you die in the game, it will force you to do push-ups based on your webcam 
 
 You can also do a shoulder press movement if you don't want the camera on the floor. 
 
-Able to track total stats based on each user
+Able to track total stats based on each user.
 
 ## Demo Video
 
