@@ -16,6 +16,7 @@ When I'm playing video games, I hate being stationary, so I love to do workouts 
 - Detect game deaths using pixel changes
 - Track pushups using MediaPipe pose detection
 - Require a set number of pushups / shoulder presses after each death
+- Lifetime stats tracked
 
 ## Repository Installation
 
