@@ -8,7 +8,7 @@ A computer vision program that detects when you die in a game and forces you to 
 
 ## Why make this 
 
-When I'm playing video games, I hate being stationary, so I love to do workouts while I'm waiting to respawn. It's a fun way to verify that I'm actually doing these workouts. I also wanted to learn some Python as well as camera input. Eventually, I want to turn this knowledge of body part tracking into an app that can be used at the gym
+When I'm playing video games, I hate being stationary, so I love to do workouts while I'm waiting to respawn. This a fun way to verify that I'm actually doing these workouts. I also wanted to learn some Python as well as camera input. Eventually, I want to turn this knowledge of body part tracking into an app that can be used at the gym
 
 ## Features
 
