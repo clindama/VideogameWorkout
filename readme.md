@@ -6,6 +6,10 @@ A computer vision program that detects when you die in a game and forces you to 
 
 <img width="300" height="251" alt="demotest" src="https://github.com/user-attachments/assets/e05b39ef-7dcf-4607-9e09-cd59e4a7f11d" />
 
+## Why make this 
+
+When I'm playing video games, I hate being stationary, so I love to do workouts while I'm waiting to respawn. It's a fun way to verify that I'm actually doing these workouts. I also wanted to learn some Python as well as camera input. Eventually, I want to turn this knowledge of body part tracking into an app that can be used at the gym
+
 ## Features
 
 - Select a screen region to monitor
