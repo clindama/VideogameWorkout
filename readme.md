@@ -22,15 +22,15 @@ python main.py
 
 Pretty much only designed for Dota 2.
 
- Boot up a dota to match and select the region of your character. 
+ Boot up a Dota 2 match and select the region of your character. 
 
 Click start tracking 
 
-Once you die in the game it will force you to do pushups based off your webcam tracking you.
+Once you die in the game, it will force you to do push-ups based on your webcam tracking you.
 
-You can also do a shoulder press movement if you dont want the camera on the floor. 
+You can also do a shoulder press movement if you don't want the camera on the floor. 
 
-Able to track total stats based off each user
+Able to track total stats based on each user
 
 ## Demo Video
 
