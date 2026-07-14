@@ -1,3 +1,4 @@
+<img width="632" height="528" alt="demotest" src="https://github.com/user-attachments/assets/e05b39ef-7dcf-4607-9e09-cd59e4a7f11d" />
 
 # Game Pushup Tracker
 
