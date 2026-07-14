@@ -27,7 +27,7 @@ python main.py
 
 ## Usage
 
-Pretty much only designed for Dota 2.
+Oonly designed for Dota 2 but can be used for any game that has a distinct area that represents you respawning. 
 
 Boot up a Dota 2 match and select the region of your character. 
 
