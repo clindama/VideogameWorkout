@@ -4,9 +4,6 @@ import math
 import time
 
 
-
-
-
 # -----------------------------
 # Function to calculate angle
 # -----------------------------
@@ -177,17 +174,30 @@ def start_pushup_test(target_reps):
 
 
 
-        # Completed
+        # -----------------------------
+        # Target Achieved State
+        # -----------------------------
         if counter >= target_reps:
 
+            # 1. Draw completion messages onto the frame
             cv2.putText(
                 frame,
                 "Completed!",
-                (250,150),
+                (220,150),
                 cv2.FONT_HERSHEY_SIMPLEX,
                 1.5,
                 (0,255,0),
                 3
+            )
+            
+            cv2.putText(
+                frame,
+                "Press [SPACE] or [R] to return to game",
+                (50,420),
+                cv2.FONT_HERSHEY_SIMPLEX,
+                0.8,
+                (255,255,255),
+                2
             )
 
             cv2.imshow(
@@ -195,7 +205,17 @@ def start_pushup_test(target_reps):
                 frame
             )
 
-            cv2.waitKey(2000)
+            # 2. Halt everything and wait specifically for the user to signal a respawn
+            print("Workout finished! Waiting for user to confirm respawn...")
+            while True:
+                key = cv2.waitKey(100) & 0xFF
+                # 32 = Spacebar, ord('r')/ord('R') = R Key
+                if key == 32 or key == ord('r') or key == ord('R'):
+                    break
+                
+                # Safe breakout option if you manually close the camera window using the OS 'X' button
+                if cv2.getWindowProperty("Pushup Tracker", cv2.WND_PROP_VISIBLE) < 1:
+                    break
 
             break
 
@@ -207,8 +227,12 @@ def start_pushup_test(target_reps):
         )
 
 
-        # Quit manually
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        # -----------------------------
+        # Manual Quit / Skip Early
+        # -----------------------------
+        # Allows you to press Q, R, or Spacebar to skip back to the game at any point
+        key_press = cv2.waitKey(1) & 0xFF
+        if key_press in [ord('q'), ord('r'), ord('R'), 32]:
             break
 
 

@@ -13,13 +13,21 @@ A computer vision program that detects when you die in a game and forces you to 
 
 git clone <https://github.com/clindama/VideogameWorkout>
 
+pip install -r requirements.txt
+
+python main.py
+
 ## Usage
 
-Pretty much only designed for Dota 2. Boot up a dota to match and select the region of your character. 
+Pretty much only designed for Dota 2.
+
+ Boot up a dota to match and select the region of your character. 
 
 Click start tracking 
 
-Once your player icon changes color it will force you to do pushups based off your webcam tracking you.
+Once you die in the game it will force you to do pushups based off your webcam tracking you.
 
 You can also do a shoulder press movement if you dont want the camera on the floor. 
+
+Able to track total stats based off each user
 
