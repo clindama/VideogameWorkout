@@ -9,11 +9,8 @@ A computer vision program that detects when you die in a game and forces you to 
 - Track pushups using MediaPipe pose detection
 - Require a set number of pushups after each death
 
-## Installation
+## Repository Installation
 
-Clone the repository:
-
-```bash
 git clone <https://github.com/clindama/VideogameWorkout>
 
 ## Usage
